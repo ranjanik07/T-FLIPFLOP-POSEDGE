@@ -28,15 +28,38 @@ From the above characteristic table, we can directly write the next state equati
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Understand the T flip-flop truth table: T=0 → No change, T=1 → Toggle.
+
+2.Write Verilog code using always block triggered on clock edge.
+
+3.Create a testbench to apply clock and T input combinations.
+
+4.Simulate the design using a Verilog simulator (e.g., ModelSim or iverilog).
+
+5.Compare output Q with expected values from the truth table to validate.
+
+
+
+
+
+NAME: RANJANI K
+
+REG NO. 212224230220
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+![image](https://github.com/user-attachments/assets/6c59b0ed-b8b9-4015-9c0c-93001db64cb7)
+
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![image](https://github.com/user-attachments/assets/6a6e110a-2799-4048-a25c-29683ec3c458)
+
+
 **TIMING DIGRAMS FOR FLIP FLOPS**
+![image](https://github.com/user-attachments/assets/7cf89e12-ff71-4a6b-8cdd-b6dacdfeb5f8)
 
 **RESULTS**
+
+Thus the implemented T-flipflop are successfully verified.
